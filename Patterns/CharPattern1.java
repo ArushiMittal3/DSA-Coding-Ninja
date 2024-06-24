@@ -1,4 +1,4 @@
-package Patterns;
+package patterns;
 public class CharPattern1 {
     
         public static void main(String[] args) {

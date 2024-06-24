@@ -1,4 +1,4 @@
-package Patterns;
+package patterns;
 public class TriPattern2 {
     public static void main(String[] args) {
         int n=5;
