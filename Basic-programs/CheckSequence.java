@@ -28,5 +28,6 @@ public class CheckSequence {
             }
         }
         System.out.println(s);
+        scan.close();
     }
 }
