@@ -80,3 +80,29 @@ public class ArrayIntersection {
 
     }
 }
+
+//BETTER SOLUTION 
+
+// class Solution {
+//     public int[] intersection(int[] nums1, int[] nums2) {
+//         int[] ans=new int[Math.min(nums1.length, nums2.length)];
+//         int[] arr=new int[1001];
+
+//         for(int i:nums1){
+//             arr[i]++;
+//         }
+
+//         int k=0;
+//         for(int i:nums2){
+//             if(arr[i]>0){
+//                 arr[i]=0;
+//                 ans[k]=i;
+//                 k++;
+//             }
+            
+//         }
+
+//         int[] result= Arrays.copyOfRange(ans, 0, k);
+//         return result;
+//     }
+// }
