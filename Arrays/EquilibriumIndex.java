@@ -65,3 +65,7 @@ public class EquilibriumIndex {
         }
     }
 }
+
+
+
+//total sum and then minus left sum and index element 
