@@ -35,7 +35,7 @@ public class OddEven {
         oddTail.next=evenHead;
         evenTail.next=null;
 
-        return head;
+        return oddHead;
     }
     public static void main(String[] args) {
         Node<Integer> head1 = Input.takeInput();
